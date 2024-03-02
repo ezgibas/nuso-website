@@ -18,7 +18,6 @@ root.render(
         <Route path="about" element={<About />} />
         <Route path="about/video" element={<AboutVideo />} />
         {/* 
-        <Route path="about/safety" element={<AboutHealthSafety />} />
         <Route path="registration" element={<CourseRegistration />} />
         <Route path="dues" element={<Dues />} />
         <Route path="faq" element={<FAQ />} />

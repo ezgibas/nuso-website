@@ -14,7 +14,6 @@ function Home() {
     </p>
     <p>
       Check out our <a href="/about/video/">video</a> to learn more about NUSO!
-      Please refer to our <a href="http://web.northeastern.edu/orchestra/home/health-and-safety/">Health and Safety</a> page for our policies for the rehearsals.
     </p>
     <p>
       For information about:
