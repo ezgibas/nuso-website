@@ -1,5 +1,5 @@
-import { AppBar, Button, Box } from "@mui/material";
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { AppBar, Button } from "@mui/material";
+import { Link } from 'react-router-dom';
 import '../styles/NavBar.css';
 
 
@@ -20,10 +20,10 @@ function NavBar() {
     );
 }
 
-function NavBarButton(props) {
+function NavBarButton({link, name}) {
     return (
-      <Link className="button" to = {props.link}>
-        <Button color="inherit">{props.name}</Button>
+      <Link className="button" to = {link}>
+        <Button color="inherit">{name}</Button>
       </Link> 
     )
 }

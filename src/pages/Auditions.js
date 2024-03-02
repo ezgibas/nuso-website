@@ -15,7 +15,7 @@ export default function Auditions() {
             In order to sign up for auditions, please fill out the form here. Sign up for your audition timeslot on this Google Sheet.
         </p>
         <p>
-            In order to be added to the Email list for more information, please email the Secretary at nuso.secretary@gmail.com
+            In order to be added to the Email list for more information, please email the Secretary at <a href="mailto:nuso.secretary@gmail.com">nuso.secretary@gmail.com</a>
         </p>
         <p>
             Audition Guidelines
@@ -41,7 +41,7 @@ export default function Auditions() {
             </p>
         </ul>
         <p>
-            Excerpts (Fall 2023 and Spring 2024)
+            <a href="https://www.dropbox.com/scl/fo/7h9snz5f98hk1baoqr2zo/h?rlkey=fns11c3xknm1nvuovx09znwjz&e=1&dl=0">Excerpts</a> (Fall 2023 and Spring 2024)
         </p>
     </div>
     return (

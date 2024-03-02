@@ -13,7 +13,7 @@ function Home() {
       Audition for the new academic year is required for both new and returning members. We will be posting more information on auditions towards the end of the summer. If you have any questions, please contact the orchestra secretary at nuso.secretary@gmail.com.
     </p>
     <p>
-      Check out our <a href="https://web.northeastern.edu/orchestra/about/video/">video</a> to learn more about NUSO!
+      Check out our <a href="/about/video/">video</a> to learn more about NUSO!
       Please refer to our <a href="http://web.northeastern.edu/orchestra/home/health-and-safety/">Health and Safety</a> page for our policies for the rehearsals.
     </p>
     <p>
