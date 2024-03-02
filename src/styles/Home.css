@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.pageContentContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nameContainer {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+.informationContainer {
+  width: 75%;
+}
