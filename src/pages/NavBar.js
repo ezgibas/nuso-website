@@ -1,12 +1,15 @@
 import { AppBar, Button, Box } from "@mui/material";
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import '../styles/NavBar.css';
+
 
 function NavBar() {
     return (
       <AppBar position="static">
         <div className="navbar-button-container">
-            <NavBarButton name="Home"/>
-            <NavBarButton name="Auditions"/>
+            <NavBarButton link="/" name="Home"/>
+            <NavBarButton link="/auditions" name="Auditions"/>
+            <NavBarButton link="/about" name="About"/>
             <NavBarButton name="Course Registration"/>
             <NavBarButton name="Dues"/>
             <NavBarButton name="FAQ"/>
@@ -19,7 +22,9 @@ function NavBar() {
 
 function NavBarButton(props) {
     return (
-        <Button className="button" variant="text" color="inherit">{props.name}</Button>
+      <Link className="button" to = {props.link}>
+        <Button color="inherit">{props.name}</Button>
+      </Link> 
     )
 }
 

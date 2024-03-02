@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pageContentContainer {
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+}
+  
+.nameContainer {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+.informationContainer {
+    width: 65%;
+}
