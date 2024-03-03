@@ -1,30 +1,27 @@
-import { AppBar, Button } from "@mui/material";
-import { Link } from 'react-router-dom';
-import '../styles/NavBar.css';
-
+import Button from 'react-bootstrap/Button'
+import { displayCompetition } from "../constants";
+import 'bootstrap/dist/css/bootstrap.css';
 
 function NavBar() {
     return (
-      <AppBar position="static">
-        <div className="navbar-button-container">
+    <nav className="d-flex justify-content-center navbar navbar-expand-lg navbar-light bg-light">        
+          <div className="">
             <NavBarButton link="/" name="Home"/>
             <NavBarButton link="/auditions" name="Auditions"/>
             <NavBarButton link="/about" name="About"/>
-            <NavBarButton name="Course Registration"/>
-            <NavBarButton name="Dues"/>
+            <NavBarButton link="/registration" name="Course Registration"/>
+            <NavBarButton link="/dues" name="Dues"/>
             <NavBarButton name="FAQ"/>
             <NavBarButton name="Documents"/>
-            <NavBarButton name="Concerto Competition"/>
+            {displayCompetition && <NavBarButton link="/competition" name="Concerto Competition"/>}
         </div>
-      </AppBar>
+      </nav>
     );
 }
 
 function NavBarButton({link, name}) {
     return (
-      <Link className="button" to = {link}>
-        <Button color="inherit">{name}</Button>
-      </Link> 
+        <a role="button" className="btn btn-outline-dark m-2"  href={link}>{name}</a>
     )
 }
 

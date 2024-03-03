@@ -23,6 +23,7 @@ function About() {
          orchestra on myNortheastern by adding the section for MUSC 1906.  This course may be repeated every
           semester for credit. For more information about enrolling, click <a href="/registration">here.</a></p>
     </div>
+    // TODO ADD INFORMATION ABOUT DIRECTOR/EBOARD HERE
     return (
         <Page headerContent = {headerContent} pageName={pageName} information={information}></Page>
     );
